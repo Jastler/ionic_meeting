@@ -1,7 +1,0 @@
-{
-  "name": "ionic_meeting",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "react"
-}

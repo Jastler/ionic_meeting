@@ -1,0 +1,43 @@
+.MuiDataGrid-footer {
+  display: none !important;
+}
+
+.MuiDataGrid-renderingZone, .MuiDataGrid-renderingZone > div {
+  width: auto !important;
+}
+
+.MuiDataGrid-row, .MuiDataGrid-row > div {
+  max-height: 150px !important;
+}
+
+.MuiDataGrid-row > div:nth-child(2) {
+  display: -webkit-box !important;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  white-space: normal !important;
+}
+
+.MuiDataGrid-row > div:nth-child(3) {
+  cursor: pointer;
+}
+
+.MuiDataGrid-row > div:nth-child(3):hover {
+  color: blue;
+}
+
+.mobile__list {
+  padding: 0 24px;
+}
+
+.mobile__list_item {
+  font-family: 'Roboto';
+  padding: 10px;
+  border-bottom: 1px solid grey;
+}
+
+.btn__sort {
+  position: fixed !important;
+  top: 120px;
+  right: -45px;
+  transform: rotateZ(-90deg);
+}
